@@ -1,3 +1,4 @@
+import 'package:flutapp_playing_with_widgets/screens/age_calculater.dart';
 import 'package:flutapp_playing_with_widgets/screens/flex_screen.dart';
 import 'package:flutapp_playing_with_widgets/screens/the_drawer.dart';
 import 'package:flutter/material.dart';
@@ -37,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
         centerTitle: true,
       ),
       drawer: MyDrawer(),
-      body: TheFlexScreen(),
+      body: AgeCalculater(),
     );
   }
 }

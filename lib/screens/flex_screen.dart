@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 
-var flexvar_1 = 1, flexvar_2 = 1, flexvar_3 = 1;
-int flexPresentage = 1;
-Widget _emptyBox = SizedBox(
-  height: 20,
-);
+var flexvar_1 = 1, flexvar_2 = 4, flexvar_3 = 1;
+int flexPresentage;
+Widget _emptyBox = SizedBox(height: 20);
 
 class TheFlexScreen extends StatefulWidget {
   @override
@@ -37,6 +35,7 @@ class _TheFlexScreenState extends State<TheFlexScreen> {
 
 _flexibleBuilder(Color theColor, int flexPresentage) {
   return Flexible(
+    // fit: FlexFit.loose,
     flex: flexPresentage,
     child: Container(
       color: theColor,
