@@ -1,2 +1,2 @@
-# flutapp_playing_with_widgets
+# Flexible_widget
 doing and playing with flutters layout widgets 
