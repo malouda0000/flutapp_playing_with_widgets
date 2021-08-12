@@ -3,6 +3,8 @@ import 'package:flutapp_playing_with_widgets/screens/flex_screen.dart';
 import 'package:flutapp_playing_with_widgets/screens/the_drawer.dart';
 import 'package:flutter/material.dart';
 
+// don't forget to fix the flex screen, so i'll get two apps at one app
+
 void main() {
   runApp(MyApp());
 }
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.dark,
         // primarySwatch: Colors.amber,
-        primaryColor: Colors.amber,
+        primaryColor: Colors.indigo,
         // primaryColorDark: Colors.indigoAccent,
       ),
       home: MyHomePage(),
